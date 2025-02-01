@@ -17,7 +17,7 @@ scr_drawShadows(obj_block)
 scr_drawShadows(obj_mewo)
 scr_drawShadows(obj_mewoTeste)
 scr_drawShadows(obj_waiting)
-//scr_drawShadows_sprite(obj_waiting)
+//scr_drawShadows_sprite(obj_waiting) 
 //scr_drawShadows_line(room_width/2-50, room_height/2-25, room_width/2+50, room_height/2+25)
 //scr_draw4SideShape(100, 100, 200, 0, 150, 200, 200, 200, false)
 

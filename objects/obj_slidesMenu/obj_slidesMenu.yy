@@ -26,7 +26,20 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"red","filters":[],"listItems":[
+        "128",
+        "0",
+      ],"multiselect":false,"name":"red","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[128, 0]","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"green","filters":[],"listItems":[
+        "128",
+        "0",
+      ],"multiselect":false,"name":"green","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[128, 0]","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"blue","filters":[],"listItems":[
+        "128",
+        "0",
+      ],"multiselect":false,"name":"blue","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[128, 0]","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

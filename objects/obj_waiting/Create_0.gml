@@ -1,4 +1,5 @@
 depth = 1
+/*
 
 pixel_position = []
 
@@ -43,3 +44,4 @@ for (var i = 0; i < xl; ++i) {
 		}
 	}
 }
+*/ 

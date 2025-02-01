@@ -1,3 +1,4 @@
+
 var b_width = _b_height,
 	b_height = _b_height,
 	b_out = _b_out,
@@ -26,14 +27,19 @@ draw_line_width_color(x+9, y+10+l_height*l, x+b_width-9,  y+10+l_height*l, 5, c_
 draw_line_width_color(x+10, y+10+l_height*l, x+b_width-10,  y+10+l_height*l, 3, c_black, c_blue)
 blue = scr_slider(x+10, x+b_width-10, y+10+l_height*l, blue[1])
 
+//l = 3
+//draw_text_color(x+10, y+10+l_height*l, "light strength", c_white, c_white, c_white, c_white, 1)
+//
+//l = 4
+//draw_line_width_color(x+9, y+10+l_height*l, x+b_width-9,  y+10+l_height*l, 5, c_white, c_white)
+//draw_line_width_color(x+10, y+10+l_height*l, x+b_width-10,  y+10+l_height*l, 3, c_black, c_white)
+//strenght = scr_slider(x+10, x+b_width-10, y+10+l_height*l, strenght[1])
+
 l = 3
-draw_text_color(x+10, y+10+l_height*l, "light strength", c_white, c_white, c_white, c_white, 1)
-
-l = 4
-draw_line_width_color(x+9, y+10+l_height*l, x+b_width-9,  y+10+l_height*l, 5, c_white, c_white)
-draw_line_width_color(x+10, y+10+l_height*l, x+b_width-10,  y+10+l_height*l, 3, c_black, c_white)
-strenght = scr_slider(x+10, x+b_width-10, y+10+l_height*l, strenght[1])
-
-l = 5
 draw_set_color(make_color_rgb(red[0], green[0], blue[0]))
 draw_line_width(x+10, y+5+l_height*l, x+b_width-10,  y+5+l_height*l, 10)
+//
+//l = 4
+//draw_set_color(c_white)
+//draw_text(x+10, y+5+l_height*l, string(red) + " - " + string(green) + " - " + string(blue) + " - ")
+//

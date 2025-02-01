@@ -7,12 +7,11 @@ lightPower = 400
 
 surface = surface_create(window_get_width(), window_get_height())
 
-red = 255
-green = 255
-blue = 255
-strenght = 255
+red = 256
+green = 256
+blue = 256
 
-relatedSliderMenu = 0
+relatedSliderMenu = noone
 isMenuUp = false
 
 xDragDiff = 0

@@ -30,22 +30,22 @@ function scr_drawShadows(obj){
 					if i > 0 and i < xl-1 and j > 0 and j < yl-1{
 						if pixel_position[i-1, j] == 0 {
 							lines_register[array_length(lines_register)] = [[x+ssX-siX+j*sx-sx/2, y+ssY-siY+i*sy-sy/2], 
-																			[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy-sy/2]]
+																							[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy-sy/2]]
 							//side_register[array_length(lines_register)] = 0
 						}
 						if pixel_position[i+1, j] == 0{
 							lines_register[array_length(lines_register)] = [[x+ssX-siX+j*sx-sx/2, y+ssY-siY+i*sy+sy/2], 
-																			[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy+sy/2]]
+																							[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy+sy/2]]
 							//side_register[array_length(lines_register)] = 1
 						}
 						if pixel_position[i, j-1] == 0{
 							lines_register[array_length(lines_register)] = [[x+ssX-siX+j*sx-sx/2, y+ssY-siY+i*sy-sy/2], 
-																			[x+ssX-siX+j*sx-sx/2, y+ssY-siY+i*sy+sy/2]]
+																							[x+ssX-siX+j*sx-sx/2, y+ssY-siY+i*sy+sy/2]]
 							//side_register[array_length(lines_register)] = 2
 						}
 						if pixel_position[i, j+1] == 0{
 							lines_register[array_length(lines_register)] = [[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy-sy/2], 
-																			[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy+sy/2]]
+																							[x+ssX-siX+j*sx+sx/2, y+ssY-siY+i*sy+sy/2]]
 							//side_register[array_length(lines_register)] = 3
 						}
 					}
